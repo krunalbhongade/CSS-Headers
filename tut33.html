@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow & text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+
+        .card{
+            margin: 23px 12px;
+            padding: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: white;
+            /* box-shadow: 10px 13px green; */
+            /* box-shadow: -10px -13px green; */
+            /* box-shadow: 7px 5px 10px green; */
+            /* box-shadow: -7px -5px -10px green; */
+            /* box-shadow: -7px -5px -10px -34px green; */
+            /* box-shadow: -7px -5px -10px -34px rgb(71, 172, 172, 0.5) ; */
+               /* box-shadow: inset 3px 5px green; */
+               box-shadow: inset 3px 5px green 4px 6px red;
+
+
+        }
+        .card h2{
+            text-shadow: 3px 4px rgb(166, 204, 117);
+            text-shadow: 3px 4px 2px rgb(221, 239, 28);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="card" id="card1">
+        <h2>c++</h2>
+        <p>we will continue this course up to completion. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo similique esse corrupti vitae, dolorum quasi officia, cum, reprehenderit aperiam a quibusdam iusto sapiente dolorem cumque? Eos ea ut officia labore possimus atque, quam voluptatem.</p>
+    </div>
+    <div class="card" id="card2">
+        <h2>card2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur qui eveniet dolore suscipit harum, ipsum sapiente voluptatem cum pariatur illo, neque optio unde nobis facere. Provident, facere dolor sint nulla inventore accusantium mollitia quisquam.</p>
+    </div>
+    <div class="card" id="card3">
+       <h2>card3</h2> 
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni temporibus asperiores aspernatur minima cum voluptatem facilis, perferendis iusto odio numquam magnam? Quae, ratione nostrum ex nesciunt perspiciatis veniam autem maiores blanditiis quibusdam possimus quam.</p>
+    </div>
+    </div>
+</body>
+</html>
